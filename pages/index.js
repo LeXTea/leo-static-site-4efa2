@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Hi, I'm Leo Quach" />
         <p className="description">
-          <a href="https://www.farcaster.xyz/">
+          <a href="https://farcaster.xyz/lextea">
             Visit my Farcaster!
           </a>
         </p>
