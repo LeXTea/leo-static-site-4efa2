@@ -4,6 +4,9 @@ import Footer from '@components/Footer'
 import { sdk } from '@farcaster/miniapp-sdk'
 
 export default function Home() {
+  <script type="module">
+    import { sdk } from 'https://esm.sh/@farcaster/miniapp-sdk'
+  </script>
   sdk.actions.ready()
   return (
     <div className="container">
