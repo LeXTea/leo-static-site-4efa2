@@ -1,4 +1,3 @@
-
 {
   "frame": {
     "name": "Leo's Static Site",
@@ -14,8 +13,8 @@
     "primaryCategory": "developer-tools"
   },
   "accountAssociation": {
-    "header": "",
-    "payload": "",
-    "signature": ""
+    "header": "eyJmaWQiOjEzNDY3OTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg5NTM2OGRjYzcxODQxNGU4MTlGZDIyMjQwZDc5N0NmM2MxMTY1NzllIn0",
+    "payload": "eyJkb21haW4iOiJsZW8tc3RhdGljLXNpdGUubmV0bGlmeS5hcHAifQ",
+    "signature": "MHg1OGY0YTgwNmE3ZGQ2YTA0MDlmMmYyZTA4NGRkZmE5MmUzN2JhZTg3MTMyMGVhM2QyZTg5MTlmNmY4YzZhZDRlNWM0MjNjMGFhYjAwMWNhOWExNTFhZjI2OTEzMTBkMDE4YjU4OGQ4ZDhjNTM2OWFlNWY5N2RjYmRhZmEzZjI1ZTFj"
   }
 }
