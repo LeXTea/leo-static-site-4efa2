@@ -2,15 +2,9 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import { sdk } from '@farcaster/miniapp-sdk'
-import { useEffect } from 'react'
 
 export default function Home() {
-  useEffect(() => {
-    async function initSDK() {
-      await sdk.actions.ready()
-    }
-    initSDK()
-  }, [])
+  sdk.actions.ready()
   return (
     <div className="container">
       <Head>
