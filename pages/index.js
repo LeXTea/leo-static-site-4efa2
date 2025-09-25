@@ -5,12 +5,12 @@ import { sdk } from '@farcaster/miniapp-sdk'
 import { useEffect } from 'react'
 
 export default function Home() {
-  useEffect(() => {
-    async function initSDK() {
-      await sdk.actions.ready()
-    }
-    initSDK()
-  }, [])
+  <script type="module">
+    import { sdk } from 'https://esm.sh/@farcaster/miniapp-sdk'
+  </script>
+  (async () => {
+    await sdk.actions.ready()
+  })()
   return (
     <div className="container">
       <Head>
