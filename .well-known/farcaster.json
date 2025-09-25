@@ -1,0 +1,21 @@
+
+{
+  "frame": {
+    "name": "Leo's Static Site",
+    "version": "1",
+    "iconUrl": "https://leo-static-site.netlify.app/icon.png",
+    "homeUrl": "https://leo-static-site.netlify.app",
+    "imageUrl": "https://leo-static-site.netlify.app/image.png",
+    "splashImageUrl": "https://leo-static-site.netlify.app/splash.png",
+    "splashBackgroundColor": "#1787b7",
+    "webhookUrl": "https://leo-static-site.netlify.app/api/webhook",
+    "subtitle": "Simple static site",
+    "description": "Test Mini-app",
+    "primaryCategory": "developer-tools"
+  },
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  }
+}
